@@ -10,11 +10,18 @@
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3",
+    "ai-answer-engine": "file:",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
     "groq-sdk": "^0.9.0",
-    "next": "15.0.4",
+    "next": "^15.0.4",
     "prettier": "^3.4.2",
+    "puppeteer": "^23.10.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",
